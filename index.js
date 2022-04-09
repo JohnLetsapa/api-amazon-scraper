@@ -12,7 +12,7 @@ const generateScraperUrl = (apiKey) =>
 app.use(express.json()); // allows app to parse json input -> i.e. middleware - converts client data into json before it reaches the server
 
 app.get('/', (req, res) => {
-  res.end(`Server running on ${PORT}`);
+  res.end(`Amazon Scraper API`);
 });
 
 // GET product details. Uses request method to fetch product details by id from params.
